@@ -1,3 +1,5 @@
+// seq-Junho-006 - INF2-PRA2-15.06.2020-22.06.2020-app-conversao-temperatura-mainactivity-java.pdf
+
 package com.example.conversortemperaturacf;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             double tempF = (tempC * 9/5) + 32;
             mTextViewResult.setText(Double.toString(tempF));
         }
-
     }
 
     public class NewCalculateClick implements View.OnClickListener{
@@ -39,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
             newCalculate();
         }
     }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +53,5 @@ public class MainActivity extends AppCompatActivity {
         mButtonCalculate = findViewById(R.id.button_Calculate);
 
         mButtonCalculate.setOnClickListener(new NewCalculateClick());
-
     }
 }

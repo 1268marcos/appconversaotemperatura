@@ -1,3 +1,5 @@
+//// seq-Junho-006 - INF2-PRA2-15.06.2020-22.06.2020-app-conversao-temperatura-mainactivity-java.pdf
+
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -23,7 +25,6 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
                 <EditText
                     android:id="@+id/editText_Value"
                     android:layout_width="match_parent"
@@ -39,7 +40,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
-
             <Button
                 android:id="@+id/button_Calculate"
                 android:layout_width="wrap_content"
@@ -52,7 +52,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
-
             <TextView
                 android:id="@+id/textView_Result"
                 android:layout_width="wrap_content"
@@ -61,8 +60,6 @@
                 android:text="TextView"
                 android:textSize="18sp" />
         </LinearLayout>
-
-    </LinearLayout>
-
+      </LinearLayout>
     </ScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
